@@ -80,4 +80,17 @@ Dir.mktmpdir("upstream-ipa") do |tmpdir|
   end
 end
 
+# AltStore rejects an entire source when one app contains the same
+# version/build pair more than once. Upstreams occasionally publish multiple
+# IPA variants with identical bundle metadata, so keep the first entry only.
+apps_json.fetch("apps").each do |app|
+  seen_versions = {}
+  app.fetch("versions", []).select! do |version|
+    key = [version["version"], version["buildVersion"]]
+    next false if seen_versions[key]
+
+    seen_versions[key] = true
+  end
+end
+
 File.write(APPS_JSON_PATH, JSON.pretty_generate(apps_json) + "\n")

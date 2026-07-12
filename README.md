@@ -4,7 +4,7 @@
 
 ## apps.json 地址
 
-- `https://raw.githubusercontent.com/jiz4oh/IPAs/master/apps.json`
+- `https://raw.githubusercontent.com/mps233/IPAs/master/apps.json`
 
 ## 如何使用
 
@@ -17,5 +17,6 @@
 ## 说明
 
 - 这个源本质上是一个 `apps.json` 清单文件。
+- 此分支会自动移除重复的版本号，避免 AltStore 因版本冲突拒绝添加整个源。
 - 实际使用时，通常是先通过兼容 AltSource 的客户端获取 IPA，再导入到 LiveContainer。
 - 如果后续仓库默认分支从 `master` 改为其他分支，需要同步更新上面的 `apps.json` 地址。

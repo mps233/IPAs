@@ -183,14 +183,7 @@
           "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35.ipa",
           "size": 153108663
         },
-        {
-          "version": "11.35",
-          "buildVersion": "12",
-          "date": "2025-11-03",
-          "localizedDescription": "上游源文件：NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-          "size": 158452402
-        },
+
         {
           "version": "10.16",
           "buildVersion": "10.16",
@@ -279,14 +272,7 @@
           "downloadURL": "https://github.com/claration/Feather/releases/download/v2.8.2/Feather.ipa",
           "size": 14242031
         },
-        {
-          "version": "2.8.2",
-          "buildVersion": "63ec47d071c188f833fd607f152b58a5bc34ab9c",
-          "date": "2026-04-22",
-          "localizedDescription": "上游源文件：Feather.ipa",
-          "downloadURL": "https://github.com/CLARATION/Feather/releases/download/v2.8.2/Feather.ipa",
-          "size": 14242031
-        },
+
         {
           "version": "2.7.0",
           "buildVersion": "1",
@@ -499,14 +485,6 @@
           "date": "2025-04-02",
           "localizedDescription": "上游源文件：Pili-1.0.27.0402.ipa",
           "downloadURL": "https://github.com/guozhigq/pilipala/releases/download/v1.0.27.0402/Pili-1.0.27.0402.ipa",
-          "size": 21543773
-        },
-        {
-          "version": "1.0.27",
-          "buildVersion": "1027",
-          "date": "2026-04-20",
-          "localizedDescription": "源文件：Pili-1.0.27.0402.ipa",
-          "downloadURL": "https://github.com/jiz4oh/IPAs/releases/download/latest/Pili-1.0.27.0402.ipa",
           "size": 21543773
         }
       ],
